@@ -1,0 +1,28 @@
+{
+  "name": "koa-glitch-keepalive",
+  "description": "A koa middleware that keeps the Glitch project alive",
+  "version": "1.0.0",
+  "author": {
+    "name": "matzkoh",
+    "url": "https://github.com/matzkoh"
+  },
+  "bugs": "https://github.com/matzkoh/koa-glitch-keepalive/issues",
+  "devDependencies": {
+    "@types/jest": "22.1.0",
+    "@types/koa": "2.0.43",
+    "@types/supertest": "2.0.4",
+    "jest": "22.1.4",
+    "koa": "2.4.1",
+    "supertest": "3.0.0"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matzkoh/koa-glitch-keepalive.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  }
+}
