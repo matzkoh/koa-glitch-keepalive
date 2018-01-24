@@ -3,11 +3,23 @@ const request = require('supertest');
 
 jest.useFakeTimers();
 
-const keepalive = require('../lib/index');
+const keepalive = require('..');
 
 describe('glitch-keepalive', () => {
   it('getUrl', () => {
-    expect(keepalive.getUrl('glitch-project-id')).toBe('http://glitch-project-id.glitch.me/keepalive');
+    const org = process.env.PROJECT_DOMAIN;
+
+    process.env.PROJECT_DOMAIN = 'glitch-project-name';
+
+    const url = keepalive.getUrl();
+
+    if (org === undefined)
+      delete process.env.PROJECT_DOMAIN;
+
+    else
+      process.env.PROJECT_DOMAIN = org;
+
+    expect(url).toBe('http://glitch-project-name.glitch.me/keepalive');
   });
 
   describe('middleware', () => {
@@ -54,14 +66,14 @@ describe('glitch-keepalive', () => {
         expect(okRoute).not.toBeCalled();
         expect(ngRoute).not.toBeCalled();
 
-        jest.runOnlyPendingTimers();
-
         await new Promise(resolve => {
           app.use(async (ctx, next) => {
             await next();
 
             resolve();
           });
+
+          jest.runOnlyPendingTimers();
         });
 
         expect(okRoute).toHaveBeenCalledTimes(1);
