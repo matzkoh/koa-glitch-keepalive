@@ -28,6 +28,10 @@
     "type": "git",
     "url": "https://github.com/matzkoh/koa-glitch-keepalive.git"
   },
+  "jest": {
+    "coverageDirectory": "coverage",
+    "collectCoverage": true
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
