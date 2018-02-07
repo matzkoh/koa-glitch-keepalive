@@ -18,8 +18,12 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "glitch",
+    "koa"
+  ],
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "lib",
   "repository": {
     "type": "git",
     "url": "https://github.com/matzkoh/koa-glitch-keepalive.git"
