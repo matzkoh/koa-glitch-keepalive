@@ -32,6 +32,9 @@
     "coverageDirectory": "coverage",
     "collectCoverage": true
   },
+  "engines": {
+    "node": ">= 8"
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"

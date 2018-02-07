@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/matzkoh/koa-glitch-keepalive.svg?branch=master)](https://travis-ci.org/matzkoh/koa-glitch-keepalive)
-[![codecov](https://codecov.io/gh/matzkoh/koa-glitch-keepalive/branch/master/graph/badge.svg)](https://codecov.io/gh/matzkoh/koa-glitch-keepalive)
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Travis](https://img.shields.io/travis/matzkoh/koa-glitch-keepalive.svg)](https://travis-ci.org/matzkoh/koa-glitch-keepalive)
+[![Codecov](https://img.shields.io/codecov/c/github/matzkoh/koa-glitch-keepalive.svg)](https://codecov.io/gh/matzkoh/koa-glitch-keepalive)
+[![npm](https://img.shields.io/npm/v/koa-glitch-keepalive.svg)](https://www.npmjs.com/package/koa-glitch-keepalive)
+![node](https://img.shields.io/node/v/koa-glitch-keepalive.svg)
+![License](https://img.shields.io/npm/l/koa-glitch-keepalive.svg)
 
 # koa-glitch-keepalive
 
