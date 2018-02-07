@@ -1,7 +1,7 @@
 {
   "name": "koa-glitch-keepalive",
   "description": "A koa middleware that keeps the Glitch project alive",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "matzkoh",
     "url": "https://github.com/matzkoh"
