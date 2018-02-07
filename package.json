@@ -15,25 +15,28 @@
     "koa": "2.4.1",
     "supertest": "3.0.0"
   },
+  "engines": {
+    "node": ">= 8"
+  },
   "files": [
     "lib"
   ],
+  "jest": {
+    "coverageDirectory": "coverage",
+    "collectCoverage": true
+  },
   "keywords": [
     "glitch",
     "koa"
   ],
   "license": "MIT",
   "main": "lib",
+  "peerDependencies": {
+    "koa": "2.*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/matzkoh/koa-glitch-keepalive.git"
-  },
-  "jest": {
-    "coverageDirectory": "coverage",
-    "collectCoverage": true
-  },
-  "engines": {
-    "node": ">= 8"
   },
   "scripts": {
     "test": "jest",
