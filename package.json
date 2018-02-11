@@ -8,10 +8,10 @@
   },
   "bugs": "https://github.com/matzkoh/koa-glitch-keepalive/issues",
   "devDependencies": {
-    "@types/jest": "22.1.0",
-    "@types/koa": "2.0.43",
+    "@types/jest": "22.1.2",
+    "@types/koa": "2.0.44",
     "@types/supertest": "2.0.4",
-    "jest": "22.1.4",
+    "jest": "22.2.2",
     "koa": "2.4.1",
     "semantic-release": "12.4.1",
     "supertest": "3.0.0"
