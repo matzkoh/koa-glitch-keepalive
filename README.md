@@ -7,6 +7,8 @@
 
 # koa-glitch-keepalive
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/matzkoh/koa-glitch-keepalive.svg)](https://greenkeeper.io/)
+
 A koa middleware that keeps the Glitch project alive.
 
 Inspired by [hubot-heroku-keepalive](https://github.com/hubot-scripts/hubot-heroku-keepalive)
