@@ -11,6 +11,7 @@
     "@types/jest": "22.1.2",
     "@types/koa": "2.0.44",
     "@types/supertest": "2.0.4",
+    "codecov": "3.0.0",
     "jest": "22.2.2",
     "koa": "2.5.0",
     "semantic-release": "12.4.1",
