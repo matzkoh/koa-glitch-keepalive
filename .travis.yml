@@ -1,15 +1,37 @@
 language: node_js
-node_js:
-  - 8
-  - 9
+
+node_js: 9
+
 notifications:
   email: false
+
 cache:
   directories:
     - node_modules
-before_script:
-  - npm prune
-after_script:
-  - npx codecov
-after_success:
-  - npx semantic-release
+
+jobs:
+  include:
+    - stage: test
+
+      before_install:
+        - npm i -g codecov greenkeeper-lockfile
+
+      before_script:
+        - npm prune
+        - greenkeeper-lockfile-update
+
+      after_script:
+        - codecov
+        - greenkeeper-lockfile-upload
+
+    - stage: release
+
+      if: branch = master
+
+      script:
+        - npx semantic-release
+        - |
+          mkdir npm-install-test
+          cd npm-install-test
+          npm init -y
+          npm i koa-glitch-keepalive
