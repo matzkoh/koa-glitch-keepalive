@@ -1,9 +1,9 @@
 [![Travis](https://img.shields.io/travis/matzkoh/koa-glitch-keepalive.svg)](https://travis-ci.org/matzkoh/koa-glitch-keepalive)
 [![Codecov](https://img.shields.io/codecov/c/github/matzkoh/koa-glitch-keepalive.svg)](https://codecov.io/gh/matzkoh/koa-glitch-keepalive)
-[![Greenkeeper badge](https://badges.greenkeeper.io/matzkoh/koa-glitch-keepalive.svg)](https://greenkeeper.io/)
+[![David](https://img.shields.io/david/matzkoh/koa-glitch-keepalive.svg)](https://david-dm.org/matzkoh/koa-glitch-keepalive)
 [![npm](https://img.shields.io/npm/v/koa-glitch-keepalive.svg)](https://www.npmjs.com/package/koa-glitch-keepalive)
-![License](https://img.shields.io/npm/l/koa-glitch-keepalive.svg)
 ![node](https://img.shields.io/node/v/koa-glitch-keepalive.svg)
+![License](https://img.shields.io/npm/l/koa-glitch-keepalive.svg)
 
 # koa-glitch-keepalive
 
