@@ -13,7 +13,7 @@
     "@types/supertest": "2.0.6",
     "jest": "23.6.0",
     "koa": "2.5.3",
-    "supertest": "3.3.0"
+    "supertest": "3.4.0"
   },
   "engines": {
     "node": ">= 8",
