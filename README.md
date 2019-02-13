@@ -1,6 +1,6 @@
 [![Travis](https://img.shields.io/travis/matzkoh/koa-glitch-keepalive.svg)](https://travis-ci.org/matzkoh/koa-glitch-keepalive)
 [![Codecov](https://img.shields.io/codecov/c/github/matzkoh/koa-glitch-keepalive.svg)](https://codecov.io/gh/matzkoh/koa-glitch-keepalive)
-[![David](https://img.shields.io/david/matzkoh/koa-glitch-keepalive.svg)](https://david-dm.org/matzkoh/koa-glitch-keepalive)
+[![Renovate](https://badges.renovateapi.com/github/matzkoh/koa-glitch-keepalive)](https://renovatebot.com/)
 [![npm](https://img.shields.io/npm/v/koa-glitch-keepalive.svg)](https://www.npmjs.com/package/koa-glitch-keepalive)
 ![node](https://img.shields.io/node/v/koa-glitch-keepalive.svg)
 ![License](https://img.shields.io/npm/l/koa-glitch-keepalive.svg)
